@@ -8,6 +8,7 @@ export default function Labs() {
   return (
     <div>
       <h1>Labs</h1>
+      <p>Zay Yar Min</p> {/* Zay Yar Min, I have no idea where I'm supposed to add this thing */}
       <Routes>
         <Route path="/" element={<Navigate to="Lab1" />} />
         <Route path="Lab1" element={<Lab1 />} />
